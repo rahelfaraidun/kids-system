@@ -1,0 +1,120 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سیستەمی دایەنگاکان</title>
+    <style>
+             body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #3498db;
+            color: #fff;
+            padding: 20px;
+            position: relative; /* Set position to relative for absolute positioning */
+        }
+
+        header img {
+            position: absolute; /* Position the logo absolutely */
+            top: 10px; /* Adjust top position */
+            left: 10px; /* Adjust left position */
+            max-width: 100px; /* Set the max-width of the logo */
+            height: auto;
+        }
+
+        main, #logos, footer {
+            margin: 0 auto;
+            max-width: 800px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+            text-align: right;
+        }
+
+        p {
+            font-weight: bold; /* Make all paragraphs bold */
+        }
+
+        button {
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        #logos img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+            margin-right: 100px; /* Add right margin between logos */
+        }
+
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #3498db;
+            color: #fff;
+            border-radius: 8px;
+        }
+
+        /* Clear the float after the logos */
+        #logos::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="image/3.jpg" alt="Logo">
+        <h1>سیستەمی دایەنگاکان</h1>
+    </header>
+
+    <main>
+        <section>
+            <p>ئەم سیستەمە سەر بە وەزارەتی حوکومی کارو کاروباری کۆمەڵایەتیە دروست کراوە بە مەبەستی ڕێکخستیی داتاکان  بە شێوازێکی دروست</p>
+        </section>
+
+        <section>
+            <h2>ڕوونکردنەوەی  زیاتر </h2>
+            <p>پێوستە بەکارهێنەر هەڵسێت بە کردنی ئەم هەنگاوانەی خوارەوە </p>
+        </section>
+
+        <section>
+            <h2>دابەزینی سیستەمەکە</h2>
+            <p>کرتەکردن لەسەر دوگمەی بەشکەو دابەزینی بەرنامەی دایەنگاکان</p>
+            <a href="app/setup.exe" download>
+                <button>دابەزاندن</button>
+            </a>
+        </section>
+    </main>
+
+    <section id="logos">
+        <img src="image/1.jpg" alt="..." width="300" height="300">
+        <img src="image/2.png" alt="..." width="250" height="200">
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+    </footer>
+
+</body>
+</html>
